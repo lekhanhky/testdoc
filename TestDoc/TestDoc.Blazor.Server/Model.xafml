@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems NavigationStyle="Accordion">
+    <Items>
+      <Item Id="@f397ecd7-2afc-4a3c-bfbe-ed0f60e92aa0" Caption="Test" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@a3993b56-7454-446b-9fce-375f18a17ae1" ViewId="detail_ListView" IsNewNode="True" />
+          <Item Id="@ca1fb913-8566-4153-86bb-561985cb9dad" ViewId="master_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options UIType="TabbedMDI" RestoreTabbedMdiLayout="True" ShowTabImage="True" />
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="24.2.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="master_ListView" MasterDetailMode="ListViewAndDetailView" />
+  </Views>
+</Application>
