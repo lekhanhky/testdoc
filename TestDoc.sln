@@ -7,6 +7,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDoc.Blazor.Server", "Te
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDoc.Module", "TestDoc\TestDoc.Module\TestDoc.Module.csproj", "{7A7C93AF-C62F-4509-886B-3D9EC1B20CBA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget-packages", "nuget-packages", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.Drawing.Skia.ja.24.2.7.nupkg = ..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.Drawing.Skia.ja.24.2.7.nupkg
+		..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.Blazor.24.2.7.nupkg = ..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.Blazor.24.2.7.nupkg
+		..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.CodeAnalysis.24.2.7.nupkg = ..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.CodeAnalysis.24.2.7.nupkg
+		..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.ConditionalAppearance.24.2.7.nupkg = ..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.ConditionalAppearance.24.2.7.nupkg
+		..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.Objects.ja.24.2.7.nupkg = ..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.Objects.ja.24.2.7.nupkg
+		..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.Security.Xpo.24.2.7.nupkg = ..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.Security.Xpo.24.2.7.nupkg
+		..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.Validation.24.2.7.nupkg = ..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.Validation.24.2.7.nupkg
+		..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.Win.Design.24.2.7.nupkg = ..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.Win.Design.24.2.7.nupkg
+		..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.Xpo.24.2.7.nupkg = ..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.ExpressApp.Xpo.24.2.7.nupkg
+		..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.Persistent.Base.24.2.7.nupkg = ..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.Persistent.Base.24.2.7.nupkg
+		..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.Persistent.BaseImpl.Xpo.24.2.7.nupkg = ..\..\..\Program Files\DevExpress 24.2\Components\System\Components\Packages\DevExpress.Persistent.BaseImpl.Xpo.24.2.7.nupkg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{45E3332C-1E7C-4879-854E-EEBF1AD153DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{E6C77A9D-89B8-4F62-9F7C-9C71EFC7D1C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +54,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}
+		{45E3332C-1E7C-4879-854E-EEBF1AD153DE} = {8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71B689A1-6A38-4900-AC01-3C405A3F7035}
