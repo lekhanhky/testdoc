@@ -4,22 +4,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 # Install dependencies
 RUN apt-get update
-
-RUN apt-get upgrade -y
-
-RUN apt-get install -y libc6
-
-RUN apt-get install -y libicu-dev
-
-RUN apt-get install -y libfontconfig1
-
-RUN apt-get clean
-
-RUN rm -rf /var/lib/apt/lists/*
-
-
-
-
+RUN apt-get install -y libc6 libicu-dev libfontconfig1
 
 WORKDIR /src
 
